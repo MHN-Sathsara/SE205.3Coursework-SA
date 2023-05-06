@@ -1,0 +1,90 @@
+body {
+  background-image: url("rm141-nunny-02b.jpg");
+  background-size: cover;
+  background-position: center;
+
+  font-family: Arial, sans-serif;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#container {
+  background-color: rgba(151, 170, 189, 0.7);
+  padding: 80px 60px;
+  border-radius: 10px;
+  width: 500px;
+  height: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+  box-shadow: 0 0 20px rgba(255, 255, 255, 0.5),
+    0 0 40px rgba(255, 255, 255, 0.3), 0 0 60px rgba(255, 255, 255, 0.2),
+    0 0 80px rgba(255, 255, 255, 0.1);
+}
+
+h1 {
+  margin-top: 0;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-weight: bold;
+}
+
+select,
+input[type="number"],
+input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+button {
+  padding: 8px 16px;
+  background-color: #3a8cce;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #5da5d7;
+}
+
+#parameters {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+#results {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+}
+
+.success {
+  color: green;
+  font-weight: bold;
+}
